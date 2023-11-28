@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap");
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Advent Pro", sans-serif;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* _____________________NAVBAR_____________________ */
+
+nav {
+	overflow: hidden;
+	background: #fffae1;
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+}
+
+header li {
+	float: right;
+	font-size: 1.2em;
+}
+
+header li a {
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+#logo {
+	font-family: "Dancing Script", cursive;
+	font-weight: bold;
+	float: left;
+}
+
+/* _____________________MAIN IMAGE_____________________ */
+
+#imgMain {
+	padding-top: 60px;
+	background: url(img/facade.jpg) no-repeat fixed;
+	background-size: cover;
+	height: 799px;
+}
+
+h1 {
+	font-family: "Dancing Script", cursive;
+	text-align: center;
+	color: honeydew;
+	font-size: 6em;
+	margin-top: 180px;
+	margin-bottom: 40px;
+	text-shadow: 2px 3px 0 black, 10px 13px 3px black;
+}
+
+#lineFirst {
+	height: 1px;
+	width: 25%;
+	margin: -3px auto;
+	background-color: #fffae1;
+	box-shadow: 2px 2px 2px black;
+}
+
+h3 {
+	text-align: center;
+	color: honeydew;
+	font-size: 3em;
+	margin: 130px auto;
+	text-shadow: 3px 2px 2px black;
+}
+
+/* _____________________PRESENTATION_____________________ */
+
+#presentation {
+	background-color: #fffae1;
+	padding: 10px 0px 100px 0px;
+}
+
+#textIntro {
+	padding: 0 20%;
+}
+
+#proposition {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 10%;
+}
+
+.imgProposition h4 {
+	font-family: "Dancing Script", cursive;
+	text-align: center;
+	font-size: 1.8em;
+	margin: 15px;
+	font-weight: 300;
+}
+
+.imgProposition img {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 10px;
+	box-shadow: 4px 7px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.imgProposition img:hover {
+	opacity: 0.75;
+	transform: scale(1.05);
+	transition: 400ms ease-in-out;
+}
+
+/* _____________________TOURISM_____________________ */
+
+#tourism {
+	height: 1000px;
+	background-color: #f1f2f6;
+	padding: 1px 2%;
+}
+
+#tourism h2 {
+	padding-top: 60px;
+}
+
+#seine {
+	background: url(./img/seine.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#parc {
+	background: url(./img/parc.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#montreuil {
+	background: url(./img/montreuil.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#sub {
+	background: url(./img/sub.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#tourism li {
+	margin: 65px 100px 0 100px;
+	height: 226px;
+	width: 55%;
+	max-width: 550px;
+	min-width: 340px;
+	float: left;
+	box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
+
+#tourism p {
+	height: 45px;
+	width: 235px;
+	background-color: rgb(255, 250, 224);
+	float: right;
+	margin: 50px -180px 0 0;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 15px;
+	box-shadow: 4px 4px 3px 1px rgb(204, 200, 178, 0.5);
+}
+
+#tourism #parc,
+#tourism #sub {
+	float: right;
+}
+
+#parc p,
+#sub p {
+	float: left;
+	margin-left: -180px;
+	box-shadow: -4px 4px 3px 1px rgb(204, 200, 178, 0.5);
+}
+
+/* _____________________FOOTER_____________________ */
+
+footer {
+	background-color: #524a3a;
+	color: #fffae1;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+input,
+textarea,
+button {
+	border: none;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 1px 0;
+	font-family: "Advent Pro", sans-serif;
+	font-size: 1.2em;
+	border-radius: 8px;
+}
+
+textarea {
+	height: 150px;
+}
+
+button {
+	font-size: 1.5em;
+	background-color: #fffae1;
+}
+
+button:hover {
+	background-color: orangered;
+	color: white;
+	cursor: pointer;
+	transition: 200ms ease-in-out;
+}
+
+#lineSecond {
+	height: 1px;
+	width: 75%;
+	margin: 60px auto;
+	background-color: #fffae1;
+}
+
+#copyrightIcons {
+	display: flex;
+	margin-bottom: 20px;
+	padding: 0 10%;
+}
+
+#copyright {
+	width: 50%;
+	text-align: left;
+	color: #fffae1;
+}
+
+#icons {
+	width: 50%;
+	text-align: right;
+}
+
+.fa {
+	/* display: inline-block; */
+	padding: 0 15px;
+	font-size: 1.3em;
+	color: #fffae1;
+}
+
+.fa:hover {
+	transform: scale(1.5);
+	transition: 100ms;
+}
